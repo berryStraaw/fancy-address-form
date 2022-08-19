@@ -13,13 +13,50 @@
 
           
           <form novalidate>
+              <!-- email -->
             <p>
               <label for="mail">
                 <span>Please enter an email address:</span>
-                <input type="email" id="mail" name="mail" required minlength="8">
+                <input type="email" id="mail" name="mail" required minlength="5">
                 <span class="error" aria-live="polite"></span>
               </label>
             </p>
+            <!-- country -->
+            <p>
+                <label for="country">
+                  <span>Please enter your country:</span>
+                  <input type="text" id="country" name="country" required minlength="2">
+                  <span class="error" aria-live="polite"></span>
+                </label>
+              </p>
+
+            <!-- Zip Code -->
+            <p>
+                <label for="zip">
+                  <span>Please enter your country:</span>
+                  <input type="text" id="zip" name="zip" required>
+                  <span class="error" aria-live="polite"></span>
+                </label>
+            </p>
+
+            <!-- passwords -->
+            <p>
+                <label for="pass">
+                  <span>Please enter your country:</span>
+                  <input type="password" id="pass" name="pass" required minlength="5">
+                  <span class="error" aria-live="polite"></span>
+                </label>
+            </p>
+
+            <!-- password comf-->
+            <p>
+                <label for="passC">
+                  <span>Please enter your country:</span>
+                  <input type="password" id="passC" name="passC" required minlength="5">
+                  <span class="error" aria-live="polite"></span>
+                </label>
+            </p>
+
             <button>Submit</button>
           </form>
           
